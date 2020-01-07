@@ -7,3 +7,8 @@ basic auth - admin:pass
 shodan /zoomeye : mongo-express
 
 mostly docker
+
+
+https://github.com/mongo-express/mongo-express/security/advisories/GHSA-h47j-hc6x-h3qq
+
+can't tell why it says specificly on 'MAC'... cause it works everywhere
